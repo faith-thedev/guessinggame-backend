@@ -18,7 +18,7 @@ const app = express();
 const server = createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "minor-seat.pipeops.net",
+    origin: "https://minor-seat.pipeops.net",
     methods: ["GET", "POST"],
   },
 });
